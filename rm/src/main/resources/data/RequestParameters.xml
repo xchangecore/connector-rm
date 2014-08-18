@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<parameters>
+  <createProfileRequestFileName>..\src\main\resources\data\CreateResourceProfile-RMApplication.xml</createProfileRequestFileName>
+  <requestResourceFileName>..\src\main\resources\data\RequestResource.xml</requestResourceFileName>
+  <incidentFileName>..\src\main\resources\data\IncidentSample.xml</incidentFileName>
+  <uicdsId>RMapplication1</uicdsId>
+  <uicdsId2>RMapplication2@clash.saic.com</uicdsId2>
+  <action>request</action>
+</parameters>

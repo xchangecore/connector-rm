@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inc:Incident xmlns:inc="http://uicds.org/incident" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://uicds.org/IncidentManagementService services\IncidentManagement\0.1\IncidentManagementService.xsd">
+				<ActivityCategoryText xmlns="http://niem.gov/niem/niem-core/2.0">Domestic Disturbance</ActivityCategoryText>
+				<ActivityDate xmlns="http://niem.gov/niem/niem-core/2.0">
+					<DateTime>2009-11-20T12:05:00</DateTime>
+				</ActivityDate>
+				<ActivityDescriptionText xmlns="http://niem.gov/niem/niem-core/2.0">Neighbors report large quantity of mysterious drums and vehicles accumulating in yard and garage</ActivityDescriptionText>
+				<ActivityName xmlns="http://niem.gov/niem/niem-core/2.0">Investigate report of suspicious activity (Demo)</ActivityName>
+				<IncidentLocation xmlns="http://niem.gov/niem/niem-core/2.0">
+					<LocationAddress>
+						<AddressFullText>1260 Emerson Road, NE, Washington, DC</AddressFullText>
+					</LocationAddress>
+					<LocationArea>
+						<AreaCircularRegion>
+							<CircularRegionCenterCoordinate>
+								<GeographicCoordinateLatitude>
+									<LatitudeDegreeValue>38</LatitudeDegreeValue>
+									<LatitudeMinuteValue>57</LatitudeMinuteValue>
+									<LatitudeSecondValue>00.82</LatitudeSecondValue>
+								</GeographicCoordinateLatitude>
+								<GeographicCoordinateLongitude>
+									<LongitudeDegreeValue>-76</LongitudeDegreeValue>
+									<LongitudeMinuteValue>59</LongitudeMinuteValue>
+									<LongitudeSecondValue>16.19</LongitudeSecondValue>
+								</GeographicCoordinateLongitude>
+							</CircularRegionCenterCoordinate>
+							<CircularRegionRadiusLengthMeasure>
+								<MeasurePointValue>4.5</MeasurePointValue>
+								<LengthUnitCode>SMI</LengthUnitCode>
+							</CircularRegionRadiusLengthMeasure>
+						</AreaCircularRegion>
+					</LocationArea>
+				</IncidentLocation>
+				<IncidentJurisdictionalOrganization xmlns="http://niem.gov/niem/niem-core/2.0">
+					<OrganizationName>DC Police</OrganizationName>
+					<OrganizationPrincipalOfficial>
+						<PersonName xsi:nil="false">
+							<PersonFullName xsi:nil="false">Captain John Jones</PersonFullName>
+						</PersonName>
+					</OrganizationPrincipalOfficial>
+					<OrganizationStatus>
+						<StatusDescriptionText xsi:nil="false">Activated</StatusDescriptionText>
+					</OrganizationStatus>
+				</IncidentJurisdictionalOrganization>
+</inc:Incident>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<parameters>
+  <createProfileRequestFileName>..\src\main\resources\data\CreateResourceProfile-RMApplication.xml</createProfileRequestFileName>
+  <commitResourceFileName>..\src\main\resources\data\CommitResource.xml</commitResourceFileName>
+  <uicdsId>RMapplication2</uicdsId>
+  <action>response</action>
+</parameters>
